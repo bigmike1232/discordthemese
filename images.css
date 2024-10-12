@@ -1,0 +1,13 @@
+/* Main background */
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/622572402605293573/632100752214458368/Konachan.com_-_289931_armor_blue_eyes_bow_weapon_brown_hair_fuu_fuore_japanese_clothes_long_hair_ori.jpg");
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;  
+}
+
+/* Set transparency for Discord elements to show the background */
+.app, .titleBar, .channels-Ie2l6A, .chat-3bRxxu, .membersWrap-2h-GB4 {
+    background: rgba(0, 0, 0, 0.6) !important;  /* Adjust transparency */
+}
+
